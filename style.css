@@ -1,0 +1,297 @@
+input, button, submit {
+  border:none;
+}
+
+li {
+  font-family: Roboto;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+.container {
+  padding: 0;
+}
+
+#bottom-border {
+  border-bottom: 1px solid #FF0000;
+  position: relative;
+  top: 140px;
+}
+
+#top-border {
+  border-bottom: 4px solid #FF0000;
+  position: relative;
+  top: 32px;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -50px;
+
+}
+
+nav li {
+  color: #FF0000;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+
+nav li:last-of-type {
+  color: #7D7D7D;
+}
+
+nav ul {
+  white-space: nowrap;
+}
+
+nav img {
+  margin-right: 10px;
+}
+
+.sign-in {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.sign-in img {
+  position: absolute;
+  right: 0;
+}
+
+.sign-in div span {
+  font-style: italic;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.before-nav {
+  position: relative;
+  top: 12px;
+}
+
+.before-nav form {
+  display: inline;
+}
+
+.before-nav form input {
+  color: #7D7D7D;
+  border-style: none;
+  border-bottom: 1px solid #C8C8C8;
+  vertical-align: top;
+}
+
+.before-nav li {
+  vertical-align: top;
+}
+
+.follow-newsweek {
+  background: repeating-linear-gradient(
+    135deg,
+    #F9F9FA,
+    #F9F9FA 2px,
+    #E6E7E8 2px,
+    #E6E7E8 4px
+  );
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.follow-newsweek .newsweek-heading {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #20C3F3;
+}
+
+.follow-newsweek #images {
+  display: block;
+  margin: 10px 0;
+}
+
+.follow-newsweek img {
+  display: inline-block;
+}
+
+.follow-newsweek > #subscribe {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.follow-newsweek form {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+.follow-newsweek input:first-of-type {
+  border-bottom: 1px solid #C8C8C8;
+  width: 130px;
+}
+
+.follow-newsweek input:nth-of-type(2) {
+  background-color: #20C3F3;
+  color: black;
+  box-shadow: 5px 5px 5px 1px #C7C7C7;
+  margin-left: 10px;
+}
+
+.newsweek-container {
+  background-color: white;
+  margin: 10px 0 20px 0;
+}
+
+.newsweek-container:last-of-type {
+  margin-bottom: 0;
+}
+
+.newsweek-item {
+  font-weight: 300;
+  border-bottom: 1px solid #C8C8C8;
+  padding-bottom: 10px;
+}
+
+.newsweek-item span:first-of-type {
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 10px 10px 0 10px;
+}
+
+.newsweek-item .shares{
+  display: block;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 300;
+  color: #7D7D7D;
+}
+
+.newsweek-item span > img {
+  margin: 0 5px;
+}
+
+.newsweek-item:last-of-type {
+  border-bottom: 0px;
+}
+
+#news-feed {
+  color: white;
+  background-color: #FF0000;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  width: 75%;
+}
+
+#big-shots {
+  color: white;
+  background-color: #FF0000;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  width: 130px;
+}
+
+.halfCol, .fullCol {
+  padding: 0;
+}
+
+.halfCol .col-lg-3 {
+  padding: 0 10px 0 0;
+  margin-top: 30px;
+}
+
+.halfCol .col-lg-9 {
+  padding: 0 0 0 20px;
+  border-left: 1px solid #C8C8C8;
+}
+
+.main-articles h1, .main-articles p, .main-articles span, h3 {
+  color: black;
+}
+
+.main-articles ul {
+  padding-left: 16px;
+  color: #FF0000;
+  list-style: square;
+  font-weight: bold;
+}
+
+.article {
+  border-bottom: 1px solid #C8C8C8;
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+
+.article #subheading {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.article h1 {
+  margin: 0;
+}
+
+.article #related-posts span {
+  color: #20C6F6;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.article #related-posts {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.article #category {
+  color: #FF0000;
+  font-weight: bold;
+  margin: 0
+}
+
+.media-left {
+  padding-right: 15px;
+}
+
+.news-item span {
+  font-weight: bold;
+}
+
+.news-item {
+  padding: 12px 0;
+  border-bottom: 2px dotted #C8C8C8;
+}
+
+.news-item:last-of-type {
+  border-bottom: 0px;
+}
+
+.news-item p {
+  margin: 0;
+}
+
+.big-shots {
+  margin-top: 20px;
+}
+
+.big-shots #subtitle {
+  font-size: 1.4em;
+  margin-left: 10px;
+}
+
+.big-shots img {
+  max-width: 90%;
+  margin-top: 20px;
+}
