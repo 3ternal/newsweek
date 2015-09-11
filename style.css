@@ -90,6 +90,10 @@ nav img {
   nav.mobile > img {
     width: 48%;
     display: inline-block;
+    margin: 0;
+  }
+  nav.mobile ul {
+    max-width: 45%;
   }
   nav.mobile ul:first-of-type {
     float: left;
